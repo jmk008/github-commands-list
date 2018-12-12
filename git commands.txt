@@ -38,7 +38,11 @@ $ git status
 12) Clear screen 
 $ clear
 
-13) Git differences between the file and changed file
+13) Git differences between the working copy and the repository.
+Once in the staging area, it does not compare to the repository
 $ git diff
+$ git diff --staged : to comapre staging area with repository
 
+14) Remove file
+$ git rm file_name
  
