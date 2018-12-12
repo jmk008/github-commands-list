@@ -28,4 +28,11 @@ $ git add .
 9) Save file to reposiroty with a message
 $ git commit -m "Add_Message"
 
+10) Get git log
+$ git log
+$ git log --author="Author_Name"
+
+11) Git status
+$ git status
+
  
