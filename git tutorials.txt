@@ -35,4 +35,7 @@ $ git log --author="Author_Name"
 11) Git status
 $ git status
 
+12) Clear screen 
+$ clear
+
  
