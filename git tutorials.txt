@@ -1,0 +1,31 @@
+Git Tutorial Commands
+
+1) Get git version
+$ git --version 
+Sample output : git version 2.12.2.windows.1
+
+2) Change user name
+$ git config --global user.name "Jaimik Bhatt"
+
+3) Change email
+$ git config --global user.email "jmkrbhatt@gmail.com"
+
+4) List all settings 
+$ git config --list
+
+5) Get help on git topics
+$ git help
+
+6) $ pwd : current directory ; $ cd ~ : home directory; $ ls : list folders
+
+7) Git init: to initialize an empty folder as a git repository
+$ git init 
+Sample output :  Initialized empty Git repository in C:/Users/Jaimik/Desktop/ConnectK/.git/
+
+8) Git add to repository
+$ git add .
+
+9) Save file to reposiroty with a message
+$ git commit -m "Add_Message"
+
+ 
