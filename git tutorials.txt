@@ -38,4 +38,7 @@ $ git status
 12) Clear screen 
 $ clear
 
+13) Git differences between the file and changed file
+$ git diff
+
  
