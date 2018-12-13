@@ -1,0 +1,60 @@
+Git Tutorial Commands
+
+1) Get git version
+$ git --version 
+Sample output : git version 2.12.2.windows.1
+
+2) Change user name
+$ git config --global user.name "Jaimik Bhatt"
+
+3) Change email
+$ git config --global user.email "jmkrbhatt@gmail.com"
+
+4) List all settings 
+$ git config --list
+
+5) Get help on git topics
+$ git help
+
+6) $ pwd : current directory ; $ cd ~ : home directory; $ ls : list folders
+
+7) Git init: to initialize an empty folder as a git repository
+$ git init 
+Sample output :  Initialized empty Git repository in C:/Users/Jaimik/Desktop/ConnectK/.git/
+
+8) Git add to repository
+$ git add .
+
+9) Save file to reposiroty with a message
+$ git commit -m "Add_Message"
+$ git commit -am "Add_message" : Pushes directly into repository from working area
+
+10) Get git log
+$ git log
+$ git log --author="Author_Name"
+
+11) Git status
+$ git status
+
+12) Clear screen 
+$ clear
+
+13) Git differences between the working copy and the repository.
+Once in the staging area, it does not compare to the repository
+$ git diff
+$ git diff --staged : to comapre staging area with repository
+
+14) Remove file
+$ git rm file_name
+
+15) To rename a file: 
+ - Rename file -> git add the file -> git rm the file
+OR
+ - $ git mv file_name1 new_file_name : this moves a file from name1 to name2. 
+
+16) To make the repository same as a working copy
+$ git checkout -- file_name
+
+17) Change a file from staging area to working copy
+$ git reset HEAD file_name
+ 
