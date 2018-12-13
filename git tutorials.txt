@@ -54,7 +54,14 @@ OR
 
 16) To make the repository same as a working copy
 $ git checkout -- file_name
+$ git checkout commit_id -- file_name : to get an older version of the file
 
 17) Change a file from staging area to working copy
 $ git reset HEAD file_name
+
+18) Establish connection between local computer and remote server (Git hub)
+$ git remote add githubRepo repository_address
+
+	- Push all files to github repo
+	$ git push -u githubRepo
  
