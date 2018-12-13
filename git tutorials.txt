@@ -64,4 +64,7 @@ $ git remote add githubRepo repository_address
 
 	- Push all files to github repo
 	$ git push -u githubRepo
+
+19) Branches : TO make changes to the repository
+
  
